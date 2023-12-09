@@ -155,10 +155,13 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          期末大学牲收容站 ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          本网站专为期末大学牲收容站站内同学搭建，采取月卡制收费
+          期末大学牲收容站是为给海大同学在与名为考试的敌人斗争中提供后备支持所建
+          现以学院为界为六站，资料储备涵盖大部分专业课程及马原、毛概等基础公共课程，包括总结、试卷、原题等等
+          更多可进Q群：809212019了解
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
